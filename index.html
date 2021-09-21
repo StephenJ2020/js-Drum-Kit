@@ -47,19 +47,24 @@
         </div>
       </div>
     
-      <audio data-key="65" src="sounds/clap.wav"></audio>
-      <audio data-key="83" src="sounds/hihat.wav"></audio>
-      <audio data-key="68" src="sounds/kick.wav"></audio>
-      <audio data-key="70" src="sounds/openhat.wav"></audio>
-      <audio data-key="71" src="sounds/boom.wav"></audio>
-      <audio data-key="72" src="sounds/ride.wav"></audio>
-      <audio data-key="74" src="sounds/snare.wav"></audio>
-      <audio data-key="75" src="sounds/tom.wav"></audio>
-      <audio data-key="76" src="sounds/tink.wav"></audio>
+      <audio data-key="65" src="./assets/sound/clap.wav"></audio>
+      <audio data-key="83" src="./assets/sound/hihat.wav"></audio>
+      <audio data-key="68" src="./assets/sound/kick.wav"></audio>
+      <audio data-key="70" src="./assets/sound/openhat.wav"></audio>
+      <audio data-key="71" src="./assets/sound/boom.wav"></audio>
+      <audio data-key="72" src="./assets/sound/ride.wav"></audio>
+      <audio data-key="74" src="./assets/sound/snare.wav"></audio>
+      <audio data-key="75" src="./assets/sound/tom.wav"></audio>
+      <audio data-key="76" src="./assets/sound/tink.wav"></audio>
     
     <script>
-        window.addEventListener('keydown', function(e){
-        
+        window.addEventListener("keydown", function(e){
+            const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+            if(!audio) return; // Stop the function 
+
+            audio.currentTime = 0; // Rewind to start of audio clip
+            audio.play();
+            console.log(audio);
         });
     
     </script>
