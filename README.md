@@ -6,9 +6,9 @@
   
 
 ## Resources  
-Github [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)  
-[Key Code](http://keycode.info/)  
-Image from [UnSplash](https://unsplash.com/photos/XMvTB8c-M4w)
-Mockup from [Am I Responsive](http://ami.responsivedesign.is/#)
-
+Wes Bos Github: [wesbos/JavaScript30](https://github.com/wesbos/JavaScript30/tree/master/01%20-%20JavaScript%20Drum%20Kit)  
+Check Keyboard Key Codes: [Key Code](http://keycode.info/)  
+Image from: [UnSplash](https://unsplash.com/photos/XMvTB8c-M4w)  
+Mockup from: [Am I Responsive](http://ami.responsivedesign.is/#)  
+  
 
